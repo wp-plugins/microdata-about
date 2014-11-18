@@ -1,0 +1,77 @@
+@media(min-width:768px){
+    #col1, #col2{
+        float:left;
+        width:45%;
+        margin:0;
+        padding:2%;
+    }
+    #col2{
+        border-left:1px solid;
+    }
+}
+
+#microdata input[type=text], #microdata input[type=url], #microdata input[type=email]{
+    width:100%;
+}
+
+/* shortcode */
+.limpiartodo{
+    clear:both;
+    padding-top:3em;
+    text-align:center;
+}
+
+.mcdata, .mcdata-big{
+	position:relative;
+	background: rgba(0,0,0,0.4);
+	border-radius:5px;
+    color:white;
+    overflow: hidden;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    padding:0 0 0.5em 0;
+}
+
+.mcphoto{
+    display:block;
+    width:50%;
+    margin:0.5em auto;
+    max-width:300px;
+    min-width:150px;
+	border-radius:50%;
+}
+
+.mcperson, .mccompany{
+	margin-left:100px;
+}
+
+.mcname{
+	display:block;
+	width:100%;
+	padding:0.5em 0 0.5em 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: rgba(0,0,0,0.6);
+}
+
+.mcname-content{
+	text-align:center;
+}
+
+.mcaddress, .mccontact{
+	float:left;
+    width:48%;
+    min-width:200px;
+    margin:1%;
+    text-align:center;
+}
+
+.mcaddress{
+	text-decoration: underline;
+}
+
+.mccontact div{
+	padding:0.5em 0 0 0;
+}
+/* = End of Shortcodes
+-------------------------------------------------------------- */
