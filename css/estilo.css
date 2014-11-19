@@ -41,10 +41,6 @@
 	border-radius:50%;
 }
 
-.mcperson, .mccompany{
-	margin-left:100px;
-}
-
 .mcname{
 	display:block;
 	width:100%;
@@ -58,11 +54,7 @@
 	text-align:center;
 }
 
-.mcaddress, .mccontact{
-	float:left;
-    width:48%;
-    min-width:200px;
-    margin:1%;
+.mcaddress, .mccontact, .mcperson{
     text-align:center;
 }
 
