@@ -198,13 +198,13 @@ function microdata_address($atts){
 		}
 		$argumento = $argumento . '<div class="mcperson">';
 		if($title){
-			$argumento = $argumento . '<span itemprop="title">(' . $title . ')</span><br>';
+			$argumento = $argumento . '<span itemprop="title">' . $title . '</span><br>';
 		}
 		if($role){
-			$argumento = $argumento . '<span itemprop="role">(' . $role . ')</span><br>';
+			$argumento = $argumento . '<span itemprop="role">' . $role . '</span><br>';
 		}
 		if($affiliation){
-			$argumento = $argumento . '<span itemprop="affiliation">(' . $affiliation . ')</span>';
+			$argumento = $argumento . '<span itemprop="affiliation">' . $affiliation . '</span>';
 		}
 		$argumento = $argumento . '</div>'; /* END .mcperson */
 	}else{
