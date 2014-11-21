@@ -194,7 +194,7 @@ function microdata_address($atts){
 		}
 		$argumento = $argumento . '</div></div>'; /* END .mcname */
 		if($logo){
-			$argumento = $argumento . '<img src="' . $logo . '" itemprop="photo" class="mcphoto">';
+			$argumento = $argumento . '<div class="mcphoto"><img src="' . $logo . '" itemprop="photo"></div>';
 		}
 		$argumento = $argumento . '<div class="mcperson">';
 		if($title){
@@ -215,13 +215,13 @@ function microdata_address($atts){
 		}
 		$argumento = $argumento . '</div></div>'; /* 1: END .mcnamecontent; 2: END .mcname */
 		if($logo){
-			$argumento = $argumento . '<img src="' . $logo . '" itemprop="logo" class="mcphoto">';
+			$argumento = $argumento . '<div class="mcphoto"><img src="' . $logo . '" itemprop="logo"></div>';
 		}
 	}
 	
 	$argumento = $argumento . '<div class="mcaddress">';
 	if($street or $locality or $postalcode or $region){
-	    $argumento = $argumento . '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"">';
+	    $argumento = $argumento . '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">';
 	    if($street){
 		$argumento = $argumento . '<span itemprop="streetAddress">' . $street . '</span><br>';
 	    }
