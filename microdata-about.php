@@ -3,7 +3,7 @@
  * Plugin Name: Microdata About
  * Plugin URI: http://antsanchez.com/blog/wp-plugin-microdata
  * Description: Serves Microdata
- * Version: 1.0.3
+ * Version: 1.1
  * Author: Antonio Sanchez
  * Author URI: http://antsanchez.com
  * Text Domain: microdata-about
